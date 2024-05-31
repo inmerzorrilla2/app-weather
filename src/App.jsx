@@ -18,7 +18,7 @@ const App = () => {
         type="text" 
         value={city} 
         onChange={handleCityChange} 
-        placeholder="Enter a city"
+        placeholder="Enter a city:"
       />
       <div className="container">
         <Weather city={city} />
